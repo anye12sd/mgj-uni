@@ -1,0 +1,246 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页", //顶部名称
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/login/index/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			// 施太洗衣和水果的商品详情
+			"path": "pages/laundryDetails/index",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			// 美业类的商品详情
+			"path": "pages/laundryDetails/hairdressDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/personalCare/index",
+			"style": {
+				"navigationBarTitleText": "施太洗护",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "fruitsPage/pages/index/index",
+			"style": {
+				"navigationBarTitleText": "时令水果",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "hairdressingPages/pages/index/index",
+			"style": {
+				"navigationBarTitleText": "养生理疗",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/index/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/accountDetail/index",
+			"style": {
+				"navigationBarTitleText": "账户明细",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/profit/index",
+			"style": {
+				"navigationBarTitleText": "收益明细",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/index/index",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/coupon/index/index",
+			"style": {
+				"navigationBarTitleText": "我的优惠券",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/coupon/getCoupon/index",
+			"style": {
+				"navigationBarTitleText": "领券中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/payStatus/index",
+			"style": {
+				"navigationBarTitleText": "交易详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/assess/index",
+			"style": {
+				"navigationBarTitleText": "订单评价",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/detail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/address/index",
+			"style": {
+				"navigationBarTitleText": "我的地址",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/FAQ/index",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/about/index",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/feedback/index",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/push/index",
+			"style": {
+				"navigationBarTitleText": "我的推送",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/withdraw/index",
+			"style": {
+				"navigationBarTitleText": "余额提现",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/newAddress/index",
+			"style": {
+				"navigationBarTitleText": "新增地址",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/preOrder/index",
+			"style": {
+				"navigationBarTitleText": "下单结算",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shop/detail/index",
+			"style": {
+				"navigationBarTitleText": "门店信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/vip/index",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shop/list/index",
+			"style": {
+				"navigationBarTitleText": "加盟店列表",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/deposit/index/index",
+			"style": {
+				"navigationBarTitleText": "我要充值",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/payOrder/index",
+			"style": {
+				"navigationBarTitleText": "支付订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/union/index/index",
+			"style": {
+				"navigationBarTitleText": "商家联盟",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/union/category/index",
+			"style": {
+				"navigationBarTitleText": "商家联盟列表",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/union/shop/index",
+			"style": {
+				"navigationBarTitleText": "商家信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/union/pay/index",
+			"style": {
+				"navigationBarTitleText": "支付下单",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle":  "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
